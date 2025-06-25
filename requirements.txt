@@ -1,12 +1,8 @@
-langchain
-langchain_community
-langchain-community
-langchain-google-genai
-langchain_google_genai
 streamlit
 PyPDF2
 requests
 google-generativeai
 python-dotenv
-dotenv
-
+langchain
+langchain-community
+langchain-google-genai
