@@ -1,0 +1,10 @@
+langchain
+langchain_community
+langchain_google_genai
+streamlit
+PyPDF2
+requests
+google-generativeai
+python-dotenv
+dotenv
+
