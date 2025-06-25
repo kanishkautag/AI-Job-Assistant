@@ -1,0 +1,56 @@
+John Doe
+📧 john.doe@example.com | 📞 +91-9876543210 | 🌐 johndoe.dev | 🧑‍💻 GitHub: @johndoe | 📍 Bengaluru, India
+
+Objective
+Passionate software engineer with 2+ years of experience in building scalable full-stack web applications and working with cross-functional teams. Seeking to contribute technical expertise and creative problem-solving to impactful projects in a growth-driven tech environment.
+
+Technical Skills
+Languages: Python, JavaScript (ES6+), Java, TypeScript, C++
+
+Frameworks/Libraries: React, Node.js, Express, Next.js, Flask
+
+Databases: MongoDB, PostgreSQL, MySQL
+
+Tools & Platforms: Git, Docker, AWS (EC2, S3, Lambda), Firebase, CI/CD (GitHub Actions)
+
+Others: REST APIs, GraphQL, WebSockets, Agile, Unit Testing (Jest, PyTest)
+
+Experience
+Software Developer
+ABC Tech Solutions, Remote
+May 2023 – Present
+
+Developed and deployed a full-stack analytics dashboard using React and Node.js that supported real-time data updates with WebSocket integration.
+
+Reduced load times by 45% by implementing server-side rendering with Next.js and optimizing API calls.
+
+Collaborated with UI/UX designers to redesign legacy interfaces, improving usability scores by 25%.
+
+Integrated CI/CD pipelines with Docker and GitHub Actions for automated deployment and testing.
+
+Software Engineering Intern
+XYZ Innovations, Bengaluru
+Jan 2022 – June 2022
+
+Built a microservice in Python (Flask) to handle authentication and authorization using JWT, reducing API response latency by 30%.
+
+Assisted in migrating monolithic architecture to a containerized Docker-based system.
+
+Contributed to team stand-ups, sprint planning, and actively participated in code reviews.
+
+Projects
+Realtime Chat App – Socket.io, Node.js, MongoDB, React
+Built a secure, scalable chat application supporting 1-1 and group chats with typing indicators, live status, and media sharing.
+
+CodeQuest – JavaScript Game with HTML5 Canvas
+A gamified learning app where users solve coding challenges in a timed environment. Deployed with Firebase Auth and Firestore for real-time progress tracking.
+
+Education
+Bachelor of Engineering – Computer Science
+PES University, Bengaluru
+2019 – 2023 | CGPA: 8.7/10
+
+Certifications
+AWS Certified Developer – Associate (2024)
+
+Meta Front-End Developer Professional Certificate – Coursera

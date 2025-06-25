@@ -1,0 +1,55 @@
+--- AI Job Search Results ---
+
+Location Searched: Remote
+==================================================
+
+#1: Remote Full Stack Web Developer Jobs at Working Nomads
+   Location: Remote
+   Link: https://www.workingnomads.com/remote-full-stack-jobs
+   Fit: Matches John Doe's experience and skills in full-stack web development, specifically mentioning remote opportunities.
+
+#2: Remote Full Stack Web Developer Jobs at Turing
+   Location: Remote
+   Link: https://www.turing.com/jobs/remote-full-stack-web-developer
+   Fit: Clearly a remote full-stack web developer position, aligning with John Doe's expertise and preference for remote work.
+
+#3: Remote Full-stack Web Developer Jobs at We Work Remotely
+   Location: Remote
+   Link: https://weworkremotely.com/categories/remote-full-stack-programming-jobs
+   Fit: Categorized as remote full-stack programming jobs, indicating relevance to John Doe's skills.
+
+#4: Remote Software Engineer Jobs at Wellfound
+   Location: Remote
+   Link: https://wellfound.com/role/r/software-engineer
+   Fit: Broader than full-stack, but relevant as John Doe is a software engineer with full-stack capabilities.  Wellfound is known for remote opportunities.
+
+#5: Remote React Jobs at Working Nomads
+   Location: Remote
+   Link: https://www.workingnomads.com/remote-react-jobs
+   Fit: John Doe has React experience; this listing focuses on remote React positions.
+
+#6: Remote React Developer Jobs at Wellfound
+   Location: Remote
+   Link: https://wellfound.com/role/r/react-developer
+   Fit: Specifically targets React developers, a skill John Doe possesses, and highlights remote work.
+
+#7: Remote React Jobs at We Work Remotely
+   Location: Remote
+   Link: https://weworkremotely.com/remote-react-jobs
+   Fit: Focuses on remote React jobs, aligning with John Doe's skills and preference for remote work.
+
+#8: Remote Jobs in Singapore at Arc.dev
+   Location: Remote
+   Link: https://arc.dev/en-sg/remote-jobs
+   Fit: While not specific to a role, Arc.dev lists remote jobs, and John Doe's location is Bengaluru, India, making remote opportunities relevant.
+
+#9: Remote Software Developer Jobs at Remotive.com
+   Location: Remote
+   Link: https://remotive.com/remote-jobs/software-dev
+   Fit: A general listing for remote software developer jobs, fitting John Doe's profession and preference for remote work.
+
+#10: Remote Software Engineer Jobs in Singapore at Jobs By Workable
+   Location: Singapore
+   Link: https://jobs.workable.com/search/singapore/remote-software-engineer-jobs
+   Fit: Although specifying Singapore, remote work is emphasized, and John Doe's skills align with software engineer roles.
+
