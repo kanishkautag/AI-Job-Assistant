@@ -7,7 +7,7 @@ load_dotenv()
 
 class ResumeAnalyzer:
     def __init__(self):
-        self.llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0.2)
+        self.llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash", temperature=0.2)
     
     def analyze_resume(self, resume_content: str) -> Dict[str, Any]:
         """Comprehensive AI-powered resume analysis using Gemini as an intelligent agent."""

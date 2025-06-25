@@ -9,7 +9,7 @@ load_dotenv()
 
 class JobSearchEngine:
     def __init__(self):
-        self.llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0.5)
+        self.llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash", temperature=0.5)
         self.search_tool = GoogleSerperAPIWrapper()
     
     def extract_job_profiles(self, resume_content: str) -> List[str]:

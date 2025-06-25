@@ -1,14 +1,18 @@
 import os
 from langchain_community.tools import YouTubeSearchTool
-import google.generativeai as genai
+from langchain_google_genai import ChatGoogleGenerativeAI
 from dotenv import load_dotenv
 
 load_dotenv()
 
 class YouTubeRecommender:
     def __init__(self):
-        genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
-        self.model = genai.GenerativeModel('gemini-2.0-flash-exp')
+        # Use LangChain's wrapper for Gemini
+        self.model = ChatGoogleGenerativeAI(
+            model="gemini-2.0-flash",
+            temperature=0.2,
+            google_api_key=os.getenv('GOOGLE_API_KEY')
+        )
         self.youtube_tool = YouTubeSearchTool()
     
     def generate_keywords(self, resume_content):
@@ -22,25 +26,23 @@ class YouTubeRecommender:
         
         Keywords:
         """
-        
         try:
-            response = self.model.generate_content(prompt)
-            keywords = response.text.strip().split(',')
+            response = self.model.invoke(prompt)
+            keywords = response.content.strip().split(',')
             return [kw.strip() for kw in keywords if kw.strip()]
         except Exception as e:
-            # Fallback keywords
+            print(f"Keyword generation failed: {e}")
             return ["career development", "professional skills", "interview preparation", "resume tips", "workplace communication"]
     
     def search_videos(self, keywords):
         """Search YouTube for videos based on keywords"""
         recommendations = []
         
-        for keyword in keywords[:5]:  # Limit to 5 searches to avoid rate limits
+        for keyword in keywords[:5]:  # Limit to 5 searches
             try:
                 search_query = f"{keyword} tutorial course"
                 results = self.youtube_tool.run(search_query)
                 
-                # Parse results and add to recommendations
                 if results:
                     recommendations.append({
                         'keyword': keyword,
