@@ -51,6 +51,10 @@ The AI Job Assistant is built with Streamlit for an interactive user interface a
 
 ![image](https://github.com/user-attachments/assets/fed58976-0f18-4b9a-9073-129c71bf76a4)
 
+![image](https://github.com/user-attachments/assets/5cdbae27-4512-47f8-9690-0844d853da56)
+
+![image](https://github.com/user-attachments/assets/98cd9710-c708-4f6e-be9c-a6e9a0806bec)
+
 ## 🚀 Get Started (Local Setup)
 
 To run this application on your local machine, follow these steps:
