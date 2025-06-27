@@ -47,6 +47,9 @@ The AI Job Assistant is built with Streamlit for an interactive user interface a
 4.  **Instant Insights & Generation:** Click the respective buttons to receive immediate analysis, job listings, generated content, or course recommendations.
 
 ---
+## Images:
+
+![image](https://github.com/user-attachments/assets/fed58976-0f18-4b9a-9073-129c71bf76a4)
 
 ## 🚀 Get Started (Local Setup)
 
